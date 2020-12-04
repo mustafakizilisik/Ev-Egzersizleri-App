@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingTop="70sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlkarin"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/my_custom_background">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/karin"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="40dp"
+                    android:text="KARIN KASLARI"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlkol"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/my_custom_background"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/kol"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="40dp"
+                    android:text="KOL KASLARI"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/my_custom_background"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gogus"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="40dp"
+                    android:text="GÖĞÜS"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/my_custom_background"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/omuz"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="40dp"
+                    android:text="OMUZ VE SIRT KASLARI"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/my_custom_background"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bacak"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="40dp"
+                    android:text="BACAK KASLARI"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+

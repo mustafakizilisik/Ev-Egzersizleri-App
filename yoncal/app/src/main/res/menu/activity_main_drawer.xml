@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_statistics"
+            android:title="İstatistikler" />
+        <item android:id="@+id/nav_item_diyet"
+            android:title="Diyet Programları" />
+        <item android:id="@+id/nav_item_dataclear"
+            android:title="Verileri Sıfırla" />
+    </group>
+</menu>

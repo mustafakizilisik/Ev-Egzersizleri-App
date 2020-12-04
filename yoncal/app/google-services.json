@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "980106510322",
+    "firebase_url": "https://yoncal.firebaseio.com",
+    "project_id": "yoncal",
+    "storage_bucket": "yoncal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980106510322:android:cee5c8c5b9123c8de1b56b",
+        "android_client_info": {
+          "package_name": "com.example.yoncal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980106510322-geqoa2hb6t93c6up9bueof7vdph5ehhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yoncal",
+            "certificate_hash": "5d3780dddb9507b34de37108b0943061e67ccc04"
+          }
+        },
+        {
+          "client_id": "980106510322-6b3bbfoedjjo1on4fbefi31idnessml3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOR2d2V1D9GAI8KSzjyogzm_0ur7oCy4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980106510322-6b3bbfoedjjo1on4fbefi31idnessml3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

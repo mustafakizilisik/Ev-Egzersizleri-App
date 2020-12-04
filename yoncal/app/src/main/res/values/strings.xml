@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">yoncal</string>
+    <string name="navigation_drawer_open">OPEN</string>
+    <string name="navigation_drawer_close">CLOSE</string>
+    <string name="diyet">Genelde uzun süren diyet programlarının en olumsuz etkisi vücudun zayıflamaya karşı gösterdiği yüksek dirençtir. Vücudumuz bu kilo vermeme direncini açlıktan ölme riski taşıdığını hissettiği zaman gösterir. Şok diyet programlarında ise durum çok farklı bir hal alıyor. Şok diyetlerde metabolizma bir direnç göstermeye kalkmadan adı gibi şok diyet uygulayarak kolayca zayıflatıyor.</string>
+
+</resources>
